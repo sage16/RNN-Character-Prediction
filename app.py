@@ -146,8 +146,6 @@ st.title('Character Prediction App')
 st.write('The data for the recurrent neural network model was gotten from Leo Tolstoy\'s novel Anna Karenina')
 image = Image.open('writing.jpg')
 st.image(image, use_column_width=True)
-st.write(
-    'Please fill in the details of the person under consideration in the left siderbar and click on the button below')
 
 char_number = st.slider('Select your character length', 1, 10000)
 
