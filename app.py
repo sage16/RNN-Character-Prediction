@@ -143,7 +143,7 @@ loaded.load_state_dict(checkpoint['state_dict'])
 # Streamlit WebApp Creation
 
 st.title('Character Prediction App')
-st.write('The data for the following example was gotten Leo Tolstoy\'s novel Anna Karenina')
+st.write('The data for the recurrent neural network model was gotten from Leo Tolstoy\'s novel Anna Karenina')
 image = Image.open('writing.jpg')
 st.image(image, use_column_width=True)
 st.write(
