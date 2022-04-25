@@ -143,8 +143,7 @@ loaded.load_state_dict(checkpoint['state_dict'])
 # Streamlit WebApp Creation
 
 st.title('Character Prediction App')
-st.write('This webapp uses artificial intelligence to generate characters to form English words.The English words are seen when the artificial intelligence is given the total number\
-characters you want produced and a starting word')
+st.write('This webapp uses artificial intelligence to generate characters to form English words.The English words are seen when the artificial intelligence is given the total number characters you want produced and a starting word')
 image = Image.open('writing.jpg')
 st.image(image, use_column_width=True)
 
